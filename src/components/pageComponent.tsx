@@ -78,7 +78,7 @@ export const PageComponent = () => {
             cursor: "grab",
             right: "-25px", // Positioned on top right of rectangle
             top: "-10px",
-            transform: `rotate(-${rotationAngle}deg)`, // Keep the text aligned
+            transform: `translate(35px, -35px) rotate(-${rotationAngle}deg)`, // Keep the text aligned
           }}
         >
           {Math.round(rotationAngle)}°
